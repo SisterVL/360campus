@@ -1,0 +1,234 @@
+@charset:"utf-8";
+body{
+	margin: 0;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+}
+
+ul,ol{
+	list-style: none;
+}
+
+.clear::after{
+	content: "";
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+
+.header {
+	height:115px;
+	background: url(../img/header-bg.png) repeat-x 0 0;
+}
+.header .header-wrap {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+
+	
+}
+.header .header-wrap .header-top{
+	color: #d0cfcf;
+	height: 45px;
+	text-align: right;
+	
+}
+.header .header-wrap .header-top a{
+	color: #d0cfcf;
+	font-size: 14px;
+	margin: 0 10px;
+	text-decoration: none;
+	line-height: 50px;
+	text-align: 50px;
+
+}
+.header .header-wrap .header-top span{
+	margin: 0 10px;
+	font-size: 14px;
+}
+.header .header-wrap .header-top a:hover{
+	color: #ffd200;
+	text-decoration:underline; 
+}
+.header .header-wrap .header-nav{
+	height: 68px; 
+
+}
+.header .header-wrap .header-nav .nav-logo {
+	float: left;
+	width: 200px;
+	height: 65px;
+	background: url(../img/logo.png) no-repeat center center;
+}
+.header .header-wrap .header-nav .nav-logo .header-nav-contation {
+	float: right;
+	width: 652px;
+	height: 68px;
+	text-align: center;
+}
+.header .header-wrap .header-nav-contation ul{
+	float: right;
+	height: 53px;
+	padding: 15px 35px 0 0;
+}
+.header .header-wrap .header-nav-contation li{
+	padding: 10px 25px 20px 25px;
+	float:left;
+}
+.header .header-wrap .header-nav-contation a{
+	list-style:none;
+	font-size: 18px;
+	text-decoration:none;
+	color: #4f4645;
+}
+
+.header .header-wrap .header-nav-contation a .active{
+	text-decoration:none;
+
+}
+.header .header-wrap .header-nav-contation .cur a{
+	color:#fff;
+}
+.header .header-wrap .header-nav-contation .blues{
+	background:#5baae3;
+}
+
+.header .header-wrap .header-nav-contation a:hover{
+	color: #ffd200;
+	text-decoration:underline;
+}
+.nav-buttow	ul{
+	width: 1000px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #5baae3;
+	color: #fff;
+	margin: 0 auto;
+	
+	
+}
+.nav-buttow	span{
+	margin: 0 14px;
+
+}
+.nav-buttow a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 14;
+}
+.nav-buttow .orange{
+	color: #ffd200;
+}
+.nav-buttow a.active{
+	color: #ffd200;
+	}
+.nav-buttow a:hover{
+	text-decoration:underline;
+	color: #ffd200;
+}
+.content{
+	background:#fff;
+	width: 1000px;
+	height:700px;
+	margin: 10px auto 0;
+	padding-bottom:10px; 
+	position: relative;
+}
+
+.content .clear{
+	text-align: center;
+	padding:0 10px;
+}
+.content li{
+	height: 645px;
+	margin: 0 5px;
+	float: left;
+}
+.content div{
+	height: 320px;
+	width: 235px;
+	margin-top:15px;
+ 
+}
+.content li .top{
+	padding-top:15px;
+}
+
+.content p{
+	text-align: left;
+	font-size: 12px; 
+	
+}
+.content .top .content-img{
+	display: block;
+	width: 138px;
+	height: 190px;
+	margin: 0 auto 15px; 
+	background: url(../img/job-cate.png) no-repeat 0 0;
+}
+.content li .top h3{
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+	text-align:center;
+	color: #fff;
+}
+.content li .top p{
+	color: #fff;
+	margin: 0 14px;	
+	line-height: 1.5em;
+}
+.content li .top .content-img:hover{
+	background: url(../img/job-cate.png) no-repeat 0 -190px;
+}
+.content .top span{
+	font-weight: bolder;
+	cursor:hand;
+	color:#5d5d5d;
+	font-size:14px;
+	font: center;
+
+}
+.content li .top .content-img1{
+	display: block;
+	width: 138px;
+	height: 190px;
+	margin: 0 auto 15px;
+	background: url(../img/job-cate.png) no-repeat -130px 0;
+}
+
+.content li .top .content-img1:hover{
+	background: url(../img/job-cate.png) no-repeat -130px -190px;
+	}
+.content li .top .content-img2{
+	display: block;
+	width: 138px;
+	height: 190px;
+	margin: 0 auto 15px;
+	background: url(../img/job-cate.png) no-repeat -260px 0;
+}
+.content li .top .content-img2:hover{
+	background: url(../img/job-cate.png) no-repeat -260px -190px;
+	}
+
+.content li .top .content-img3{
+	display: block;
+	width: 138px;
+	height: 190px;
+	margin: 0 auto 15px;
+	background: url(../img/job-cate.png) no-repeat -410px 0;
+}
+
+.content li .top .content-img3:hover{
+	background: url(../img/job-cate.png) no-repeat -410px -190px;
+	}
+	
+.page-bg{
+	width: 100%;
+	height:100%;
+	padding-bottom:30px;
+	background: url(../img/env-bg.png) repeat fixed center center;
+}
